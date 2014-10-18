@@ -1,0 +1,139 @@
+!SESSION 2014-10-18 14:37:13.591 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-10-18 14:42:20.700
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2014-10-18 14:42:20.700
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2014-10-18 14:42:20.700
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2014-10-18 14:42:20.700
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-10-18 14:42:20.700
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.700
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.5.0.20140606-0033 (org.eclipse.m2e.logback.feature.feature.group 1.5.0.20140606-0033)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.700
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.5.0.20140606-0033 (org.eclipse.m2e.core 1.5.0.20140606-0033) requires 'bundle com.google.guava [14.0.1,16.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-18 14:42:20.700
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.700
+!MESSAGE From: Maven Integration for Eclipse 1.5.0.20140606-0033 (org.eclipse.m2e.core.ui 1.5.0.20140606-0033)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.700
+!MESSAGE To: bundle org.eclipse.m2e.core [1.5.0,1.6.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-18 14:42:20.701
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.701
+!MESSAGE From: m2e logback appender 1.5.0.20140606-0033 (org.eclipse.m2e.logback.appender 1.5.0.20140606-0033)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.701
+!MESSAGE To: bundle org.eclipse.m2e.core.ui [1.5.0,1.6.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-18 14:42:20.701
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.701
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.5.0.20140606-0033 (org.eclipse.m2e.logback.feature.feature.group 1.5.0.20140606-0033)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.701
+!MESSAGE To: org.eclipse.m2e.logback.appender [1.5.0.20140606-0033]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-10-18 14:42:20.752
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2014-10-18 14:42:20.752
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2014-10-18 14:42:20.752
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2014-10-18 14:42:20.752
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-10-18 14:42:20.752
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.752
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.5.0.20140606-0033 (org.eclipse.m2e.logback.feature.feature.group 1.5.0.20140606-0033)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.752
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.5.0.20140606-0033 (org.eclipse.m2e.core 1.5.0.20140606-0033) requires 'bundle com.google.guava [14.0.1,16.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-18 14:42:20.752
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.752
+!MESSAGE From: Maven Integration for Eclipse 1.5.0.20140606-0033 (org.eclipse.m2e.core.ui 1.5.0.20140606-0033)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.753
+!MESSAGE To: bundle org.eclipse.m2e.core [1.5.0,1.6.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-18 14:42:20.753
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.753
+!MESSAGE From: m2e logback appender 1.5.0.20140606-0033 (org.eclipse.m2e.logback.appender 1.5.0.20140606-0033)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.753
+!MESSAGE To: bundle org.eclipse.m2e.core.ui [1.5.0,1.6.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-18 14:42:20.753
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.753
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.5.0.20140606-0033 (org.eclipse.m2e.logback.feature.feature.group 1.5.0.20140606-0033)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.753
+!MESSAGE To: org.eclipse.m2e.logback.appender [1.5.0.20140606-0033]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-10-18 14:42:20.790
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2014-10-18 14:42:20.790
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2014-10-18 14:42:20.790
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2014-10-18 14:42:20.791
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-10-18 14:42:20.791
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.791
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.5.0.20140606-0033 (org.eclipse.m2e.logback.feature.feature.group 1.5.0.20140606-0033)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.791
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.5.0.20140606-0033 (org.eclipse.m2e.core 1.5.0.20140606-0033) requires 'bundle com.google.guava [14.0.1,16.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-18 14:42:20.791
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.791
+!MESSAGE From: Maven Integration for Eclipse 1.5.0.20140606-0033 (org.eclipse.m2e.core.ui 1.5.0.20140606-0033)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.791
+!MESSAGE To: bundle org.eclipse.m2e.core [1.5.0,1.6.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-18 14:42:20.791
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.791
+!MESSAGE From: m2e logback appender 1.5.0.20140606-0033 (org.eclipse.m2e.logback.appender 1.5.0.20140606-0033)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.791
+!MESSAGE To: bundle org.eclipse.m2e.core.ui [1.5.0,1.6.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-18 14:42:20.791
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.791
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.5.0.20140606-0033 (org.eclipse.m2e.logback.feature.feature.group 1.5.0.20140606-0033)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.792
+!MESSAGE To: org.eclipse.m2e.logback.appender [1.5.0.20140606-0033]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-10-18 14:42:20.799
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2014-10-18 14:42:20.799
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2014-10-18 14:42:20.799
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2014-10-18 14:42:20.799
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-10-18 14:42:20.799
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.799
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.5.0.20140606-0033 (org.eclipse.m2e.logback.feature.feature.group 1.5.0.20140606-0033)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.800
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.5.0.20140606-0033 (org.eclipse.m2e.core 1.5.0.20140606-0033) requires 'bundle com.google.guava [14.0.1,16.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-18 14:42:20.800
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.800
+!MESSAGE From: Maven Integration for Eclipse 1.5.0.20140606-0033 (org.eclipse.m2e.core.ui 1.5.0.20140606-0033)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.800
+!MESSAGE To: bundle org.eclipse.m2e.core [1.5.0,1.6.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-18 14:42:20.800
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.800
+!MESSAGE From: m2e logback appender 1.5.0.20140606-0033 (org.eclipse.m2e.logback.appender 1.5.0.20140606-0033)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.800
+!MESSAGE To: bundle org.eclipse.m2e.core.ui [1.5.0,1.6.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-18 14:42:20.800
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.800
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.5.0.20140606-0033 (org.eclipse.m2e.logback.feature.feature.group 1.5.0.20140606-0033)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-18 14:42:20.800
+!MESSAGE To: org.eclipse.m2e.logback.appender [1.5.0.20140606-0033]
