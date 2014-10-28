@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2e.Maven2LaunchConfigurationType">
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="/home/ale/workspace/week_2_crud/homework_2_3_mongoproc/hw2-3"/>
+</launchConfiguration>
