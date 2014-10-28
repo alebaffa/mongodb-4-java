@@ -1,23 +1,50 @@
 package com.tengen;
-import com.mongodb.*;
 
 import java.net.UnknownHostException;
+
+import com.mongodb.BasicDBObject;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
+import com.mongodb.MongoClient;
+import com.mongodb.ServerAddress;
 
 /**
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args ) throws UnknownHostException
-    {
-       MongoClient client = new MongoClient(new ServerAddress("localhost",27017));
-       DB db = client.getDB("test");
-       DBCollection things = db.getCollection("things");
-        DBCursor cursor = things.find();
-        while(cursor.hasNext()){
-            System.out.println(cursor.next());
-        }
+public class App {
+	public static void main(String[] args) throws UnknownHostException {
+		MongoClient client = new MongoClient("127.0.0.1");
+		DB db = client.getDB("students");
+		DBCollection collection = db.getCollection("grades");
+		BasicDBObject searchQuery = new BasicDBObject();
+		BasicDBObject sortQuery = new BasicDBObject();
+		searchQuery.put("type", "homework");
+		sortQuery.put("student_id", 1);
+		sortQuery.put("score", 1);
+		DBCursor cursor = collection.find(searchQuery).sort(sortQuery);
+		System.out.println(cursor.count());
+		BasicDBObject tempDocument = null;
+		int i = 0;
+		while (cursor.hasNext()) {
+			BasicDBObject document = (BasicDBObject) cursor.next();
+			System.out.println(document);
+			if (tempDocument != null) {
+				if (!document.get("student_id").equals(
+						tempDocument.get("student_id"))) {
+					collection.remove(document);
+					i++;
+				}
+			} else {
+				collection.remove(document);
+				i++;
 
-    }
+			}
+			tempDocument = document;
+
+		}
+		System.out.println(i);
+	}
 }
